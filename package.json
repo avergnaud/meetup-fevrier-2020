@@ -1,0 +1,16 @@
+{
+  "name": "meetup-fevrier-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^5.15.0",
+    "serve": "^11.3.0"
+  }
+}
