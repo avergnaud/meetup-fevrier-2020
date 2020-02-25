@@ -38,7 +38,6 @@ const shuffle = () => {
             // The update selection represents existing elements (persisting data) that you may need to modify (for example, repositioning).
             update => update
                 .attr("fill", "black")
-                .attr("y", 0)
                 .call(
                     update => update.transition().duration(t)
                         .attr("x", (d, i) => i * 16)
