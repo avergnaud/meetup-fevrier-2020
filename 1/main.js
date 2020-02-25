@@ -4,6 +4,7 @@ const setHeight = (item, index) => `${item}px`;
 
 d3.select('#container').selectAll('div')
     .data(someValues)
+/* .join('div') */
     .join(
         enter => enter.append('div')
             .text((item, index) => `enter [${index}]`)
